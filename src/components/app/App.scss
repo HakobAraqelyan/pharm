@@ -1,0 +1,17 @@
+.app {
+    display: grid;
+    grid-template-areas: 
+        'header header'
+        'sidebar content';
+    grid-template-columns: 230px 1fr;
+    
+    .app_header {
+        grid-area: header;
+    }
+    .app_sidebar {
+        grid-area: sidebar;
+    }
+    .app_content {
+        grid-area: content;
+    }
+}
