@@ -3,7 +3,7 @@
     grid-template-areas: 
         'header header'
         'sidebar content';
-    grid-template-columns: 230px 1fr;
+    grid-template-columns: 320px 1fr;
     
     .app_header {
         grid-area: header;
